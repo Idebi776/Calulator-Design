@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(209, 61, 7);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.small-screen{
+    display: none;
+}
+
+button{
+    display: none;
+}
+
+img{
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.big-screen{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    margin: 5px 5px;
+    
+}
